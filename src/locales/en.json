@@ -1,0 +1,485 @@
+{
+  "authLogin": {
+    "header": {
+      "server1": "Server 1",
+      "server2": "Server 2",
+      "server3": "Server 3"
+    },
+    "form": {
+      "title": "Login to your account",
+      "labelEmail": "Email",
+      "placeholderEmail": "Please put your email here",
+      "requiredErrorEmail": "Email is required",
+      "emailErrorEmail": "Is not a valid email address",
+      "labelPassword": "Password",
+      "placeholderPassword": "Combination numbers and letter",
+      "requiredErrorPassword": "Password is required",
+      "submitButton": "Submit",
+      "forgotText": "Forgot password?",
+      "forgotAction": "Click here",
+      "registerText": "Don't have an account yet?",
+      "registerAction": "Register here"
+    }
+  },
+  "authAdmin": {
+    "form": {
+      "title": "Admin Login",
+      "labelEmail": "Email",
+      "placeholderEmail": "Please put your email here",
+      "requiredErrorEmail": "Email is required",
+      "emailErrorEmail": "Is not a valid email address",
+      "labelPassword": "Password",
+      "placeholderPassword": "Combination numbers and letter",
+      "requiredErrorPassword": "Password is required",
+      "submitButton": "Submit",
+    }
+  },
+  "authForgotPassword":{
+    "form": {
+      "title": "Forgot password",
+      "instruction": "You've received an email with instructions to reset your password.",
+      "labelEmail": "Email",
+      "placeholderEmail": "Please put your email here",
+      "submitButton": "Submit",
+      "submitButtonReturn" : "Continue"
+    }
+  },
+  "authRegister": {
+    "form": {
+      "title": "Register new account",
+      "labelProfileTitle": "Choose your profile",
+      "labelEmail": "Email",
+      "placeholderEmail": "Please put your email here",
+      "requiredErrorEmail": "Email is required",
+      "emailErrorEmail": "Is not a valid email address",
+      "labelPassword": "Password",
+      "labelConfirmPassword": "Repeat password",
+      "placeholderPassword": "Combination numbers and letter",
+      "requiredErrorPassword": "Password is required",
+      "isPasswordErrorPassword": "Password format a-z A-Z 0-9 and special any symbol",
+      "sameAsErrorPassword": "Password does not match",
+      "submitButton": "Submit",
+      "labelOptionPlayer": "Player",
+      "labelOptionTeam": "Team"
+    }
+  },
+  "authRegisterConfirm": {
+    "form": {
+      "title": "Confirm Your Account",
+      "profileCreated": "Your profile is successful created!",
+      "label": "We have sent a code to your email, please confirm the code",
+      "placeholder": "Please put your confirmation code here",
+      "requiredConfirmCode": "Code is required",
+      "submit": "Submit",
+      "resendText": "Didn't get the code?",
+      "resendAction": "Resend it here",
+      "skip": "Skip for later"
+    }
+  },
+  "authRegisterPlayer": {
+    "form": {
+      "title": "Complete your players profile",
+      "labelFullName": "Full Name",
+      "placeholderFullName": "Please put your Full Name here",
+      "requiredFullName": "Full Name is required",
+      "labelProfileAvatar": "Profile Avatar",
+      "fileProfileAvatarUploadPreviewText": "no image",
+      "fileProfileAvatarUploadDesc": "Max file size 1 mb, 500x500 px, type of file JPG or PNG",
+      "labelDateOfBirth": "Date of Birth",
+      "placeholderDateOfBirth": "Please put your Date of Birth here",
+      "requiredDateOfBirth": "Date of Birth is required",
+      "labelPhoneNumber": "Phone Number",
+      "placeholderPhoneNumber": "Please put your Phone Number here",
+      "requiredPhoneNumber": "Phone Number is required",
+      "labelAddress": "Address",
+      "placeholderStreet": "Street 1",
+      "requiredStreet": "Street is required",
+      "placeholderCity": "City",
+      "requiredCity": "City is required",
+      "placeholderStates": "States",
+      "requiredStates": "Required",
+      "placeholderZipCode": "ZIP Code",
+      "requiredZipCode": "Required",
+      "placeholderCountry": "Country",
+      "requiredCountry": "Country is required",
+      "labelInstagram": "Instagram or other social media link",
+      "placeholderInstagram": "Please put your Instagram here",
+      "requiredInstagram": "Instagram is required",
+      "placeholderOtherSocial": "Please put your Other social here",
+      "labelPlatform": "Platform",
+      "labelGamingName": "Gaming Name",
+      "placeholderGamingName": "Please put your Gaming Name here",
+      "requiredGamingName": "Gaming Name is required",
+      "labelStreaming": "Streaming",
+      "labelStreamingRadioYes": "Yes",
+      "labelStreamingRadioNo": "No",
+      "placeholderStreamingLink": "If yes please put your Streaming Link here",
+      "requiredStreamingLink": "Streaming Link is required",
+      "labelLookingForTeam": "Are you looking for team?",
+      "labelLookingForTeamRadioYes": "Yes",
+      "labelLookingForTeamRadioNo": "No",
+      "submitButton": "Submit"
+    }
+  },
+  "authRegisterTeam": {
+    "form": {
+      "title": "Complete your team profile",
+      "labelTeamName": "Team Name",
+      "placeholderTeamName": "Please put your Team Name here",
+      "requiredTeamName": "Team Name is required",
+      "labelProfileAvatar": "Team Logo",
+      "fileProfileAvatarUploadPreviewText": "no image",
+      "fileProfileAvatarUploadDesc": "Max file size 1 mb, 500x500 px, type of file JPG or PNG",
+      "labelAddress": "Address",
+      "placeholderStreet": "Street 1",
+      "requiredStreet": "Street is required",
+      "placeholderCity": "City",
+      "requiredCity": "City is required",
+      "placeholderStates": "States",
+      "requiredStates": "Required",
+      "placeholderZipCode": "ZIP Code",
+      "requiredZipCode": "Required",
+      "placeholderCountry": "Country",
+      "requiredCountry": "Country is required",
+      "labelContactPerson": "Contact Person",
+      "placeholderContactPerson": "Please put your Contact Person here",
+      "requiredContactPerson": "Contact Person is required",
+      "labelEmail": "Email",
+      "placeholderEmail": "Please put your Email here",
+      "requiredEmail": "Email is required",
+      "labelPhoneNumber": "Phone Number",
+      "placeholderPhoneNumber": "Please put your Phone Number here",
+      "requiredPhoneNumber": "Phone Number is required",
+      "labelWebsite": "Website",
+      "placeholderWebsite": "Please put your Website here",
+      "submitButton": "Submit"
+    }
+  },
+  "authResetPassword":{
+    "form": {
+      "title": "Reset your password",
+      "labelNewPassword": "New Password",
+      "placeholderNewPassword": "Enter your new password",
+      "labelConfirmNewPassword": "Confirm password",
+      "placeholderConfirmNewPassword": "Confirm your new password",
+      "submitButton": "Reset password",
+      "requiredErrorPassword": "Password is required",
+      "requiredErrorConfirmPassword": "Confirm password is required",
+      "requiredErrorEmail" : "Email was not submitted",
+      "emailErrorEmail" : "Email format was false",
+      "requiredErrorToken" : "Token was not submitted",
+      "instruction": "Your password was successfully changed.",
+      "submitButtonReturn": "Continue"
+
+    }
+  },
+  "layoutPlayer": {
+    "nav": {
+      "myProfile": "My Profile",
+      "myStatistics": "My Statistics",
+      "logout": "Logout",
+      "uploadNewData": "Upload New Data",
+    }
+  },
+  "playerProfile": {
+    "general": {
+      "welcome": "Good morning",
+      "editProfile": "Edit Profile",
+      "title": "My Profile",
+      "labelFullName": "Full Name",
+      "labelDateOfBirth": "Date of Birth",
+      "labelEmail": "Email",
+      "labelPhoneNumber": "Phone Number",
+      "labelAddress": "Address",
+      "labelStreamingLink": "Streaming Link",
+      "labelInstagramLink": "Instagram Link",
+      "labelOtherLinks": "Other links",
+      "labelPlatformPlaystationGamingId": "Playstation Gamer ID",
+      "labelPlatformXboxGamingId": "Playstation Gamer ID",
+      "labelEsportClub": "Searching for club",
+      "labelStreaming": "Streaming",
+      "labelCountry": "Country",
+      "labelStates": "State",
+      "labelZipCode": "Zip Code",
+      "labelCity": "City",
+      "labelStreet" : "Straße"
+    },
+    "statisticsGeneral": {
+      "title": "FIFA WL overview",
+      "currentPosition": "Current Position",
+      "totalMatchPlayed": "Total Match Played",
+      "biggestWin": "Biggest Win",
+      "highestPosition": "Highest Position",
+      "totalWins": "Total Wins",
+      "biggestLoss": "Biggest Loss",
+      "totalLoss": "Total Loss",
+      "uploadNewData": "Upload New Data"
+    },
+    "statisticsMonthly": {
+      "title": "Monthly statistics"
+    }
+  },
+  "playerStatistics": {
+    "stat": {
+      "played": {
+        "totalMatchPlayed": "Total Match Played",
+        "totalWin": "Total Win",
+        "totalLoss": "Total Loss"
+      }
+    },
+    "playingRate": {
+      "title": "Playing Rate",
+      "changeLastWeekLabel": "Change last week"
+    },
+    "weekendLeague": {
+      "currentPositionLabel": "Current Position",
+      "highestPositionLabel": "Highest Position",
+      "lowestPositionLabel": "Lowest Position"
+    },
+    "conclution": {
+      "title": "Conclution",
+      "text": "Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Dolorum rerum, iste, deserunt commodi sequi soluta vel sunt dolores, quaerat magni minima vitae ipsa mollitia eveniet repudiandae, nisi velit ea id. Porro a magni assumenda est aliquid sint repellat nisi suscipit nobis voluptates, at voluptatibus ea, reiciendis nesciunt qui culpa tempore."
+    },
+    "report": {
+      "title": "PDF Report",
+      "label": "Download this report",
+      "download": "Download"
+    }
+  },
+  "layoutTeam": {
+    "nav": {
+      "myProfile": "My Profile",
+      "searchPlayers": "Search Players",
+      "unlockedPlayers": "Unlocked Players",
+      "credits": "Credits",
+      "logout": "Log out",
+    }
+  },
+  "teamProfile": {
+    "general": {
+      "welcome": "Good morning",
+      "editProfile": "Edit Profile",
+      "title": "My Profile",
+      "labelTeamName": "Full Name",
+      "labelContactPerson": "Contact Person",
+      "labelEmail": "Email",
+      "labelPhoneNumber": "Phone Number",
+      "labelAddress": "Address",
+      "labelStreamingLink": "Streaming Link",
+      "labelInstagramLink": "Instagram Link",
+      "labelWebsite": "Website",
+      "labelPlatform": "Platform",
+      "labelGamingId": "Gaming ID",
+      "labelCountry":"Country",
+      "labelStates":"State"
+    },
+    "credits": {
+      "title": "Transferino Credits",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ullam facere impedit eos ut quas delectus eligendi optio et voluptates maiores",
+      "buy": "Buy more"
+    }
+  },
+  "teamSearchPlayers": {
+    "title": "Search Players",
+    "filter": {
+      "title": "Filter",
+      "age": "Age",
+      "city": "City",      
+      "record": "Wins",
+      "platform": "Platform",
+      "platformXbox": "xBox",
+      "platformPlaystation": "Playstation",
+      "clubStatus": "Club Status",
+      "clubStatusLooking": "Looking",
+      "clubStatusHave": "Have",
+      "button": "Reset",
+      "country": "Country: All",
+      "state": "State: All",
+      "game": "Game"
+    },
+    "results": {
+      "playerName": "Name",
+      "age": "Age",
+      "region": "Region",
+      "city": "City",
+      "record": "Last WL result",
+      "platform": "Console",
+      "clubStatus": "Searching for club",
+      "clubStatusYes": "Yes",
+      "clubStatusNo": "No",
+      "streaming": "Is Streaming",
+      "streamingYes": "Yes",
+      "streamingNo": "No"
+    }
+  },
+  "teamUnlockPlayer": {
+    "alreadyUnlockedFirstChunk": "Player was unlocked for",
+    "alreadyUnlockedSecondChunk": "credits at",
+    "linkToPlayer": "Go to player details",
+    "player": {
+      "creditsNeededTitle": "To unlock this player profile you'll need",
+      "creditsLabel": "credits",
+      "creditsYour": "Your Credits",
+      "creditsUnlockNow": "unlock now",
+      "creditsAddCredits": "add credits",
+      "creditsDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic fugiat itaque, omnis ipsam laborum neque quasi expedita."
+    }
+  },
+  "teamUnlockedPlayers": {
+    "title": "Search Players",
+    "filter": {
+      "title": "Filter",
+      "search": "Search by mame",
+      "age": "Age",
+      "region": "Region",
+      "record": "Record",
+      "platform": "Platform",
+      "platformXbox": "xBox",
+      "platformPlaystation": "Playstation",
+      "clubStatus": "Club Status",
+      "clubStatusLooking": "Looking",
+      "clubStatusHave": "Have",
+      "button": "Reset",
+    },
+    "results": {
+      "playerName": "Player Name",
+      "age": "Age",
+      "region": "Region",
+      "record": "Record",
+      "platform": "Console",
+      "clubStatus": "Club Status",
+      "clubStatusYes": "Yes",
+      "clubStatusNo": "No",
+      "streaming": "Streaming",
+      "streamingYes": "Yes",
+      "streamingNo": "No"
+    }
+  },
+  "teamCredits": {
+    "formCredits": {
+      "title": "Credits",
+      "yourCredits": "Your Transferino Credits",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat quae architecto, deleniti, ad quia distinctio consectetur!",
+      "wantToBuyLabel": "Credits you want to buy",
+      "requiredWantToBuy": "Credits is required",
+      "totalPrice": "total price",
+      "totalPriceEuro": "euro",
+      "submit": "Submit"
+    },
+    "formCheckout": {
+      "title": "Cehckout",
+      "totalPrice": "total price",
+      "totalPriceEuro": "euro",
+      "cardTitle": "Credit & Debit Cards",
+      "cardSubtitle": "Transaction fee may apply",
+      "cardLabel": "Card Number",
+      "cardExpiryDate": "Expiry date",
+      "cardVCC": "VCC",
+      "requiredCardNumber": "Card number is required",
+      "isCardCardNumber": "Card number is invalid",
+      "requiredCardExpiryDate": "Card expiry date is required",
+      "isExpiryCardExpiryDate": "Card expiry date is invalid",
+      "requiredCardVCC": "Card VCC code is required",
+      "isVCCCardVCC": "Card VCC code is invalid",
+      "cardInvalid": "Invalid card",
+      "paypalTitle": "Pay with PayPal",
+      "paypalSubtitle": "Transaction fee may apply",
+      "accept": "I have read and accept the terms of use rules of Transferino and privacy policy",
+      "isAcceptAccepted": "Please accept",
+      "submit": "Pay now"
+    }
+  },
+  "layoutAdmin": {
+    "nav": {
+      "allDatabase": "All Database",
+      "confirmation": "Confirmation",
+      "logout": "Logout"
+    },
+    "hello": "Hello. you login with"
+  },
+  "adminProfile": {
+    "title": "Transferino Database",
+    "search": {
+      "inputByNamePlaceholder": "Search by name",
+      "buttonPlayers": "players",
+      "buttonTeams": "teams"
+    },
+    "results": {
+      "playerName": "Player Name",
+      "teamName": "Team Name",
+      "email": "Email",
+      "emailStatus": "Email Status",
+      "profileData": "Profile Data",
+      "profileStatus": "Profile Status",
+      "profileStatusPending": "pending",
+      "profileStatusActive": "active",
+      "profileStatusLocked": "locked",
+      "buttonSeeDetails": "see details"
+    }
+  },
+  "adminPlayerDetail": {
+    "profileStatusLabel": "Profile Status",
+    "profileStatusPending": "pending",
+    "profileStatusActive": "active",
+    "profileStatusLocked": "locked",
+    "playerProfileTitle": "Players Profile",
+    "playerFullName": "Full Name",
+    "playerAge": "Age",
+    "playerDateOfBirth": "Date Of Birth",
+    "playerEmail": "Email",
+    "playerPhoneNumber": "Phone Number",
+    "playerAddress": "Address",
+    "playerZipCode": "ZipCode",
+    "playerCity": "City",
+    "playerState": "State",
+    "playerCountry": "Country",
+    "playerPlatform": "Platform",
+    "playerGamingID": "Gaming ID",
+    "playerSearchingClub": "Searching for Esport Club",
+    "playerSearchingClubYes": "Yes",
+    "playerSearchingClubNo": "No",
+    "playerIsStreaming": "Is Streaming",
+    "playerIsStreamingYes": "Yes",
+    "playerIsStreamingNo": "No",
+    "playerInstagramLink": "Instagram link",
+    "playerTwitchLink": "Twitch link",
+    "playerYoutubeLink": "Youtube link",
+    "playerOtherLink": "Other link",
+    "submitButton": "Save Changes"
+  },
+  "adminConfirmation": {
+    "title": "WL Confirmation",
+    "table": {
+      "playerName": "Player Name",
+      "totalWin": "Total Win",
+      "totalLost": "Total Lost",
+      "periodeWeek": "Periode Week",
+      "submitData": "Submit Data",
+      "buttonSeeDetails": "see details",
+    } 
+  },
+  "footer": {
+    "copyright": "Copyright"
+  },
+  "cTeamPlayerProfile": {
+    "title": "Player profile",
+    "profile": {
+      "contactEmail": "email",
+      "dateOfBirth": "Date Of Birth",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "address": "Address",
+      "streamingLink": "Streaming link",
+      "instagramLink": "Instagram link",
+      "youtubeLink": "Youtube link",
+      "playstationGamingID": "Playstation Gaming ID",
+      "xboxGamingID": "Xbox Gaming ID",
+      "isStreaming": "Is Streaming",
+      "isStreamingYes": "Yes",
+      "isStreamingNo": "No",
+      "searchingClub": "Searching for Esport Club",
+      "searchingClubYes": "Yes",
+      "searchingClubNo": "No"
+    }
+  }
+}

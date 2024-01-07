@@ -1,0 +1,485 @@
+{
+  "authLogin": {
+    "header": {
+      "server1": "Server 1",
+      "server2": "Server 2",
+      "server3": "Server 3"
+    },
+    "form": {
+      "title": "Login",
+      "labelEmail": "E-Mail",
+      "placeholderEmail": "Bitte gib deine E-Mail-Adresse ein",
+      "requiredErrorEmail": "E-Mail ist erforderlich",
+      "emailErrorEmail": "Ist keine gültige E-Mail-Adresse",
+      "labelPassword": "Passwort",
+      "placeholderPassword": "Gib dein Passwort ein",
+      "requiredErrorPassword": "Passwort ist erforderlich",
+      "submitButton": "Einloggen",
+      "forgotText": "Passwort vergessen?",
+      "forgotAction": "Hier wird dir geholfen",
+      "registerText": "Du hast noch keinen Account?",
+      "registerAction": "Hier registrieren"
+    }
+  },
+  "authAdmin": {
+    "form": {
+      "title": "Admin Login",
+      "labelEmail": "Email",
+      "placeholderEmail": "E-Mail Adresse",
+      "requiredErrorEmail": "Email ist erforderlich",
+      "emailErrorEmail": "Ist keine gültige E-Mail-Adresse",
+      "labelPassword": "Passwort",
+      "placeholderPassword": "Kombination aus Zahlen und Buchstaben",
+      "requiredErrorPassword": "Passwort ist erforderlich",
+      "submitButton": "Submit",
+    }
+  },
+  "authForgotPassword":{
+    "form": {
+      "title": "Passwort vergessen",
+      "instruction": "Dir wurde eine E-Mail zum Zurücksetzen deines Password geschickt. Bitte folge den Anweisungen und logge dich erneut ein!",
+      "labelEmail": "E-Mail",
+      "placeholderEmail": "Gib deine E-Mail-Adresse ein",
+      "submitButton": "Link anfordern",
+      "submitButtonReturn" : "Weiter"
+    }
+  },
+  "authRegister": {
+    "form": {
+      "title": "Neuen Account registrieren",
+      "labelProfileTitle": "Wie wirst du Transferino nutzen?",
+      "labelEmail": "E-Mail",
+      "placeholderEmail": "Bitte gib deine E-Mail-Adresse ein",
+      "requiredErrorEmail": "E-Mail-Adresse ist erforderlich",
+      "emailErrorEmail": "Ist keine gültige E-Mail-Adresse",
+      "labelPassword": "Passwort",
+      "labelConfirmPassword": "Password bestätigen",
+      "placeholderPassword": "Passwort",
+      "requiredErrorPassword": "Passwort wird benötigt",
+      "isPasswordErrorPassword": "Passwort Format: Klein- und Großbuchstaben, Zahl und ein Sonderzeichen",
+      "sameAsErrorPassword": "Passwort stimmt nicht überein",
+      "submitButton": "Registrieren",
+      "labelOptionPlayer": "Als Spieler",
+      "labelOptionTeam": "Als Verein"
+    }
+  },
+  "authRegisterConfirm": {
+    "form": {
+      "title": "E-Mail Adresse bestätigen",
+      "profileCreated": "Dein Profil wurde erfolgreich erstellt!",
+      "label": "Wir haben dir einen Bestätigungscode per E-Mail zugesendet.",
+      "placeholder": "Gib den Bestätigungscode ein",
+      "requiredConfirmCode": "Der Bestätigungscode ist erforderlich",
+      "submit": "E-Mail-Adresse bestätigen",
+      "resendText": "Bestätigungscode nicht angekommen?",
+      "resendAction": "Erneut senden",
+      "skip": "Später"
+    }
+  },
+  "authRegisterPlayer": {
+    "form": {
+      "title": "Vervollständige dein Spielerprofil",
+      "labelFullName": "Name",
+      "placeholderFullName": "Vor- und Nachname",
+      "requiredFullName": "Dein Name ist erforderlich, um Transferino erfolgreich zu nutzen",
+      "labelProfileAvatar": "Profilbild",
+      "fileProfileAvatarUploadPreviewText": "kein Bild",
+      "fileProfileAvatarUploadDesc": "Maximale Dateigröße 1 MB, 500x500 Pixel, Dateityp JPG oder PNG",
+      "labelDateOfBirth": "Geburtsdatum",
+      "placeholderDateOfBirth": "Geburtsdatum",
+      "requiredDateOfBirth": "Geburtsdatum ist erforderlich",
+      "labelPhoneNumber": "Telefonnummer",
+      "placeholderPhoneNumber": "Bitte geben Sie hier Ihre Telefonnummer ein",
+      "requiredPhoneNumber": "Telefonnummer ist erforderlich",
+      "labelAddress": "Adresse",
+      "placeholderStreet": "Straße",
+      "requiredStreet": "Straße ist erforderlich",
+      "placeholderCity": "Stadt",
+      "requiredCity": "Stadt ist erforderlich",
+      "placeholderStates": "Bundesland",
+      "requiredStates": "Erforderlich",
+      "placeholderZipCode": "Postleitzahl",
+      "requiredZipCode": "Erforderlich",
+      "placeholderCountry": "Land",
+      "requiredCountry": "Land ist erforderlich",
+      "labelInstagram": "Instagram Profil",
+      "placeholderInstagram": "Instagram Profil",
+      "requiredInstagram": "Instagram ist erforderlich",
+      "placeholderOtherSocial": "Anderer social Media Link",
+      "labelPlatform": "Spiel-Konsole",
+      "labelGamingName": "Spielername",
+      "placeholderGamingName": "Wie nennst du dich?",
+      "requiredGamingName": "Der Name des Spiels ist erforderlich",
+      "labelStreaming": "Bist du Streamer?",
+      "labelStreamingRadioYes": "Ja",
+      "labelStreamingRadioNo": "Nein",
+      "placeholderStreamingLink": "Wenn ja, geben Sie bitte Ihren Streaming-Link hier ein",
+      "requiredStreamingLink": "Streaming Link ist erforderlich",
+      "labelLookingForTeam": "Suchst du aktuell einen E-Sport Verein?",
+      "labelLookingForTeamRadioYes": "Ja",
+      "labelLookingForTeamRadioNo": "Nein",
+      "submitButton": "Speichern"
+    }
+  },
+  "authRegisterTeam": {
+    "form": {
+      "title": "Vervollständige dein Vereins-Profil",
+      "labelTeamName": "Verein",
+      "placeholderTeamName": "Vereinsname",
+      "requiredTeamName": "Vereinsname ist erforderlich",
+      "labelProfileAvatar": "Logo",
+      "fileProfileAvatarUploadPreviewText": "kein Bild",
+      "fileProfileAvatarUploadDesc": "Maximale Dateigröße 1 MB, 500x500 Pixel, Dateityp JPG oder PNG",
+      "labelAddress": "Adresse",
+      "placeholderStreet": "Straße",
+      "requiredStreet": "Straße ist erforderlich",
+      "placeholderCity": "Stadt",
+      "requiredCity": "Stadt ist erforderlich",
+      "placeholderStates": "Zustände",
+      "requiredStates": "Erforderlich",
+      "placeholderZipCode": "Postleitzahl",
+      "requiredZipCode": "Erforderlich",
+      "placeholderCountry": "Land",
+      "requiredCountry": "Land ist erforderlich",
+      "labelContactPerson": "Ansprechpartner",
+      "placeholderContactPerson": "Bitte gib den Namen des Ansprechpartners an",
+      "requiredContactPerson": "Ansprechpartner ist erforderlich",
+      "labelEmail": "Email",
+      "placeholderEmail": "E-Mail-Adresse",
+      "requiredEmail": "E-Mail ist erforderlich",
+      "labelPhoneNumber": "Telefonnummer",
+      "placeholderPhoneNumber": "Telefonnummer",
+      "requiredPhoneNumber": "Telefonnummer ist erforderlich",
+      "labelWebsite": "Vereins-Webseite",
+      "placeholderWebsite": "www.example.com",
+      "submitButton": "Speichern"
+    }
+  },
+  "authResetPassword":{
+    "form": {
+      "title": "Passwort zurücksetzen",
+      "labelNewPassword": "Neues Passwort",
+      "placeholderNewPassword": "Lege dein neues Passwort fest",
+      "labelConfirmNewPassword": "Passwort wiederholen",
+      "placeholderConfirmNewPassword": "Bestätige dein neues Passwort",
+      "submitButton": "Passwort zurücksetzen",
+      "requiredErrorPassword": "Das Passwort wird benötigt",
+      "requiredErrorConfirmPassword": "Das Bestätigen des Passworts ist erforderlich",
+      "requiredErrorEmail" : "Die E-Mail wurde nicht übergeben",
+      "emailErrorEmail" : "Falsches E-Mail Format",
+      "requiredErrorToken" : "Auth-Token fehlerhaft",
+      "instruction": "Dein Passwort wurde aktualisiert",
+      "submitButtonReturn": "Weiter"
+
+    }
+  },
+  "layoutPlayer": {
+    "nav": {
+      "myProfile": "Mein Profil",
+      "myStatistics": "Meine Statistiken",
+      "logout": "Logout",
+      "uploadNewData": "Weekendleague einreichen",
+    }
+  },
+  "playerProfile": {
+    "general": {
+      "welcome": "Hi",
+      "editProfile": "Profil bearbeiten",
+      "title": "Mein Profil",
+      "labelFullName": "Vor- und Nachname",
+      "labelDateOfBirth": "Geburtsdatum",
+      "labelEmail": "E-Mail",
+      "labelPhoneNumber": "Telefon/Handy",
+      "labelAddress": "Adresse",
+      "labelStreamingLink": "Streaming Link",
+      "labelInstagramLink": "Instagram Link",
+      "labelOtherLinks": "Andere relevante Links",
+      "labelPlatformPlaystationGamingId": "PSN ID",
+      "labelPlatformXboxGamingId": "Xbox ID",
+      "labelEsportClub": "Suche nach Verein",
+      "labelStreaming": "Streaming",
+      "labelCountry": "Land",
+      "labelStates": "Bundesland",
+      "labelZipCode": "Postleitzahl",
+      "labelCity": "Stadt",
+      "labelStreet" : "Straße"
+    },
+    "statisticsGeneral": {
+      "title": "Weekend-League Übersicht",
+      "currentPosition": "Aktueller Rank",
+      "totalMatchPlayed": "Spiele gesamt",
+      "biggestWin": "Höchster Sieg",
+      "highestPosition": "Höchster Rank",
+      "totalWins": "Siege gesamt",
+      "biggestLoss": "Höchste Niederlage",
+      "totalLoss": "Niederlagen gesamt",
+      "uploadNewData": "Neue Weekendleague einreichen"
+    },
+    "statisticsMonthly": {
+      "title": "Monatliche Statistik"
+    }
+  },
+  "playerStatistics": {
+    "stat": {
+      "played": {
+        "totalMatchPlayed": "Spiele gesamt",
+        "totalWin": "Siege gesamt",
+        "totalLoss": "Niederlagen gesamt"
+      }
+    },
+    "playingRate": {
+      "title": "Aktivitäten",
+      "changeLastWeekLabel": "Veränderung zu letzter Woche"
+    },
+    "weekendLeague": {
+      "currentPositionLabel": "Aktueller Rank",
+      "highestPositionLabel": "Höchster Rank",
+      "lowestPositionLabel": "Niedrigster Rank"
+    },
+    "conclution": {
+      "title": "Bewertung",
+      "text": "Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Dolorum rerum, iste, deserunt commodi sequi soluta vel sunt dolores, quaerat magni minima vitae ipsa mollitia eveniet repudiandae, nisi velit ea id. Porro a magni assumenda est aliquid sint repellat nisi suscipit nobis voluptates, at voluptatibus ea, reiciendis nesciunt qui culpa tempore."
+    },
+    "report": {
+      "title": "PDF Bericht",
+      "label": "Bericht herunterladen",
+      "download": "Download"
+    }
+  },
+  "layoutTeam": {
+    "nav": {
+      "myProfile": "Vereins-Profil",
+      "searchPlayers": "Spieler finden",
+      "unlockedPlayers": "Meine Spieler",
+      "credits": "Credits",
+      "logout": "Ausloggen",
+    }
+  },
+  "teamProfile": {
+    "general": {
+      "welcome": "Hallo",
+      "editProfile": "Profil bearbeiten",
+      "title": "Mein Profil",
+      "labelTeamName": "Vereinsname",
+      "labelContactPerson": "Ansprechpartner",
+      "labelEmail": "E-Mail",
+      "labelPhoneNumber": "Telefon/Handy",
+      "labelAddress": "Addresse",
+      "labelStreamingLink": "Streaming Link",
+      "labelInstagramLink": "Instagram Link",
+      "labelWebsite": "Webseite",
+      "labelPlatform": "Platform",
+      "labelGamingId": "Gaming ID",
+      "labelCountry":"Land",
+      "labelStates":"Bundesland"
+    },
+    "credits": {
+      "title": "Transferino Credits",
+      "description": "Mit Transferino-Credits kannst du interessante Spieler freischalten, den Fortschritt verfolgen und Kontakt aufnehmen.",
+      "buy": "Mehr kaufen"
+    }
+  },
+  "teamSearchPlayers": {
+    "title": "Spieler finden",
+    "filter": {
+      "title": "Filter",
+      "age": "Alter",     
+      "city": "Stadt", 
+      "record": "WL-Siege",
+      "platform": "Konsole: Alle",
+      "platformXbox": "xBox",
+      "platformPlaystation": "Playstation",
+      "clubStatus": "Vereins-Status",
+      "clubStatusLooking": "Sucht Verein",
+      "clubStatusHave": "Hat Verein",
+      "button": "Zurücksetzen",
+      "country": "Land: Alle",
+      "state": "Bundesland: Alle",
+      "game": "Game"
+    },
+    "results": {
+      "playerName": "Spieler",
+      "age": "Alter",
+      "region": "Bundesland",
+      "city": "Stadt",
+      "record": "Letztes WL Ergebnis",
+      "platform": "Konsole",
+      "clubStatus": "Vereins-Status",
+      "clubStatusYes": "Yes",
+      "clubStatusNo": "No",
+      "streaming": "Streamer-Status",
+      "streamingYes": "Yes",
+      "streamingNo": "No"
+    }
+  },
+  "teamUnlockPlayer": {
+    "alreadyUnlockedFirstChunk": "Player was unlocked for",
+    "alreadyUnlockedSecondChunk": "credits at",
+    "linkToPlayer": "Go to player details",
+    "player": {
+      "creditsNeededTitle": "To unlock this player profile you'll need",
+      "creditsLabel": "credits",
+      "creditsYour": "Your Credits",
+      "creditsUnlockNow": "unlock now",
+      "creditsAddCredits": "add credits",
+      "creditsDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic fugiat itaque, omnis ipsam laborum neque quasi expedita."
+    }
+  },
+  "teamUnlockedPlayers": {
+    "title": "Meine Spieler",
+    "filter": {
+      "title": "Filter",
+      "search": "Mit Namen suchen",
+      "age": "Alter",
+      "region": "Stadt",
+      "record": "Record",
+      "platform": "Platform",
+      "platformXbox": "xBox",
+      "platformPlaystation": "Playstation",
+      "clubStatus": "Club Status",
+      "clubStatusLooking": "Looking",
+      "clubStatusHave": "Have",
+      "button": "Reset",
+    },
+    "results": {
+      "playerName": "Spieler",
+      "age": "Alter",
+      "region": "Stadt",
+      "record": "Letztes WL Ergebnis",
+      "platform": "Konsole",
+      "clubStatus": "Vereins-Status",
+      "clubStatusYes": "Yes",
+      "clubStatusNo": "No",
+      "streaming": "Streamer-Status",
+      "streamingYes": "Yes",
+      "streamingNo": "No"
+    }
+  },
+  "teamCredits": {
+    "formCredits": {
+      "title": "Credits",
+      "yourCredits": "Deine Transferino Credits",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat quae architecto, deleniti, ad quia distinctio consectetur!",
+      "wantToBuyLabel": "Wie viele Credits möchtest du kaufen?",
+      "requiredWantToBuy": "Credits-Anzahl ist erforderlich",
+      "totalPrice": "Gesamt Preis",
+      "totalPriceEuro": "Euro",
+      "submit": "Kaufen"
+    },
+    "formCheckout": {
+      "title": "Cehckout",
+      "totalPrice": "total price",
+      "totalPriceEuro": "euro",
+      "cardTitle": "Credit & Debit Cards",
+      "cardSubtitle": "Transaction fee may apply",
+      "cardLabel": "Card Number",
+      "cardExpiryDate": "Expiry date",
+      "cardVCC": "VCC",
+      "requiredCardNumber": "Card number is required",
+      "isCardCardNumber": "Card number is invalid",
+      "requiredCardExpiryDate": "Card expiry date is required",
+      "isExpiryCardExpiryDate": "Card expiry date is invalid",
+      "requiredCardVCC": "Card VCC code is required",
+      "isVCCCardVCC": "Card VCC code is invalid",
+      "cardInvalid": "Invalid card",
+      "paypalTitle": "Pay with PayPal",
+      "paypalSubtitle": "Transaction fee may apply",
+      "accept": "I have read and accept the terms of use rules of Transferino and privacy policy",
+      "isAcceptAccepted": "Please accept",
+      "submit": "Pay now"
+    }
+  },
+  "layoutAdmin": {
+    "nav": {
+      "allDatabase": "Datenbanken",
+      "confirmation": "WL Bestätigungen",
+      "logout": "Ausloggen"
+    },
+    "hello": "Hi"
+  },
+  "adminProfile": {
+    "title": "Transferino Database",
+    "search": {
+      "inputByNamePlaceholder": "Nach Namen suchen...",
+      "buttonPlayers": "Spieler",
+      "buttonTeams": "Vereine"
+    },
+    "results": {
+      "playerName": "Spielername",
+      "teamName": "Vereinsname",
+      "email": "Email",
+      "emailStatus": "Email Status",
+      "profileData": "Profil ausgefüllt",
+      "profileStatus": "Profile Status",
+      "profileStatusPending": "pending",
+      "profileStatusActive": "active",
+      "profileStatusLocked": "locked",
+      "buttonSeeDetails": "Details"
+    }
+  },
+  "adminPlayerDetail": {
+    "profileStatusLabel": "Profile Status",
+    "profileStatusPending": "pending",
+    "profileStatusActive": "active",
+    "profileStatusLocked": "locked",
+    "playerProfileTitle": "Players Profile",
+    "playerFullName": "Full Name",
+    "playerAge": "Age",
+    "playerDateOfBirth": "Date Of Birth",
+    "playerEmail": "Email",
+    "playerPhoneNumber": "Phone Number",
+    "playerAddress": "Address",
+    "playerZipCode": "ZipCode",
+    "playerCity": "City",
+    "playerState": "State",
+    "playerCountry": "Country",
+    "playerPlatform": "Platform",
+    "playerGamingID": "Gaming ID",
+    "playerSearchingClub": "Searching for Esport Club",
+    "playerSearchingClubYes": "Yes",
+    "playerSearchingClubNo": "No",
+    "playerIsStreaming": "Is Streaming",
+    "playerIsStreamingYes": "Yes",
+    "playerIsStreamingNo": "No",
+    "playerInstagramLink": "Instagram link",
+    "playerTwitchLink": "Twitch link",
+    "playerYoutubeLink": "Youtube link",
+    "playerOtherLink": "Other link",
+    "submitButton": "Save Changes"
+  },
+  "adminConfirmation": {
+    "title": "WL-Ergebnis Bestätigung",
+    "table": {
+      "playerName": "Spieler",
+      "totalWin": "Siege",
+      "totalLost": "Niederlagen",
+      "periodeWeek": "Woche",
+      "submitData": "Speichern",
+      "buttonSeeDetails": "Mehr Details",
+    } 
+  },
+  "footer": {
+    "copyright": "Urheberrechte"
+  },
+  "cTeamPlayerProfile": {
+    "title": "Player profile",
+    "profile": {
+      "contactEmail": "email",
+      "dateOfBirth": "Date Of Birth",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "address": "Address",
+      "streamingLink": "Streaming link",
+      "instagramLink": "Instagram link",
+      "youtubeLink": "Youtube link",
+      "playstationGamingID": "Playstation Gaming ID",
+      "xboxGamingID": "Xbox Gaming ID",
+      "isStreaming": "Is Streaming",
+      "isStreamingYes": "Yes",
+      "isStreamingNo": "No",
+      "searchingClub": "Searching for Esport Club",
+      "searchingClubYes": "Yes",
+      "searchingClubNo": "No"
+    }
+  }
+}

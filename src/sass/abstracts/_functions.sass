@@ -1,0 +1,110 @@
+// App color fuctions
+@function c($hue, $saturation, $lightness)
+	@return hsl($hue, $saturation, $lightness)
+
+@function cmw($color, $percentage)
+	@return mix(white, $color, $percentage)
+
+@function cmb($color, $percentage)
+	@return mix(black, $color, $percentage)
+
+@function cma($color, $alpha)
+	@return rgba($color, $alpha)
+
+@function c_none()
+	@return transparent
+
+@function c_white()
+	@return white
+
+@function c_black()
+	@return c(215, 35%, 7%)
+
+// Setup layout colors
+@function c_layout_main()
+	@return c(0, 0%, 99%)
+
+@function c_layout_admin()
+	@return c(214, 47%, 3%)
+
+// Setup theme colors
+@function c_action()
+	@return c(220, 88%, 59%)
+	// @return c(7, 100%, 69%)// orange
+
+@function c_text_gray()
+	@return c(218, 19%, 45%)
+
+@function c_input_bg()
+	@return c(218, 24%, 18%)
+
+@function c_input_bg_black()
+	@return c(215, 35%, 7%)
+
+@function c_placeholder()
+	@return c(218, 20%, 35%)
+
+@function c_file_preview_bg()
+	@return c(217, 11%, 68%)
+
+@function c_button_bg_lighten1()
+	@return c(217, 19%, 36%)
+
+@function c_button_bg()
+	@return c(218, 24%, 18%)
+
+@function c_dark_blue_bg()
+	@return c(214, 32%, 15%)
+
+@function	c_dark_red_bg()
+	@return c(357, 26%, 16%)
+
+@function c_side_nav_main()
+	@return c(217, 19%, 36%)
+
+@function c_side_nav_active()
+	@return c(217, 11%, 68%)
+
+@function c_side_nav_bg()
+	@return c(218, 24%, 18%)
+
+@function c_gray_lighten2()
+	@return c(217, 19%, 36%)
+
+@function c_gray_lighten1()
+	@return c(217, 19%, 36%)
+
+@function c_gray()
+	@return c(218, 19%, 24%)
+
+@function c_blue()
+	@return c(195, 96%, 47%)
+
+@function c_green()
+	@return c(136, 62%, 54%)
+
+@function c_red()
+	@return c(7, 46%, 34%)
+
+@function c_label_win()
+	@return c(235, 10%, 42%)
+
+@function c_label_loss()
+	@return c_red()
+
+@function c_results_select_pending()
+	@return c(216, 19%, 38%)
+
+@function c_results_select_locked()
+	@return c_red()
+
+
+
+
+
+// Map functions
+@function mg($map, $key)
+	@return map-get($map, $key)
+
+@function screen($size)
+	@return mg($breakpoint, $size)
